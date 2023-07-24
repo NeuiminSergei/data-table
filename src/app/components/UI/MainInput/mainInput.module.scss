@@ -1,0 +1,29 @@
+.input {
+  min-width: 630px;
+  margin-bottom: 16px;
+  background-color: #5A5C66;
+  padding: 15px 20px;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-weight: 400;
+  line-height: 137.687%;
+  caret-color: #fff;
+
+  &::placeholder {
+    color: #B2B7BF;
+  }
+}
+
+@media (max-width: 768px) {
+  .input {
+    min-width: 350px;
+  }
+}
+
+@media (max-width: 425px) {
+  .input {
+    min-width: 200px;
+  }
+}

@@ -1,0 +1,13 @@
+.item {
+  padding: 15px 10px;
+  text-align: center;
+  vertical-align: top;
+  font-weight: 500;
+  font-size: 13px;
+  border: 1px solid #E3E6EC;
+  border-top: none;
+
+  &:not(:last-child) {
+    border-right: none;
+  }
+}

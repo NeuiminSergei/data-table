@@ -1,0 +1,24 @@
+.table {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.table_header {
+  background-color: var(--main-color);
+}
+
+.table_col {
+  text-align: center;
+
+  &:nth-child(1) {
+    width: 110px;
+  }
+
+  &:nth-child(2) {
+    width: 530px;
+  }
+
+  &:nth-child(3) {
+    width: 430px;
+  }
+}

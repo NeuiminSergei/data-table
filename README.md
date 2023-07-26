@@ -1,7 +1,7 @@
 Чтобы посмотреть проект нужно выполнить команды: 
 
-1. cd data-table
-2. 'npm i'
-3. 'npm run dev'
+1. npm i
+2. npm run build
+3. npm run start
 
 Перейти в браузере по адресу: 'http://localhost:3000'
